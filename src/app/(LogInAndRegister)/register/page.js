@@ -3,7 +3,11 @@
 import SocialLoginReg from '../components/SocialLoginReg'
 import backgroundImage from '@/assets/login-registerBG.jpg'
 import RegisterInputs from './components/registerInputs'
-import RegisterAnimation from './components/animation'
+import dynamic from 'next/dynamic'
+// import RegisterAnimation from './components/animation'
+
+// Dynamically import LoginAnimation to disable SSR
+const RegisterAnimation = dynamic(() => import('./components/animation'), { ssr: false })
 
 export default function RegisterPage() {
     return (
