@@ -1,4 +1,5 @@
-import React from 'react'
+'use client'
+
 import SocialLoginReg from '../components/SocialLoginReg'
 import backgroundImage from '@/assets/login-registerBG.jpg'
 import RegisterInputs from './components/registerInputs'

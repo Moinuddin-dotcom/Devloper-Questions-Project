@@ -1,5 +1,5 @@
+'use client'
 
-import React from 'react'
 import SocialLoginReg from '../components/SocialLoginReg'
 import backgroundImage from '@/assets/login-registerBG.jpg'
 import LoginInputs from './components/logInInputs'
